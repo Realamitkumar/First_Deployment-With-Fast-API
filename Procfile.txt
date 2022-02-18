@@ -1,8 +1,0 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Feb 19 04:42:54 2022
-
-@author: amitt
-"""
-
-web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:app
